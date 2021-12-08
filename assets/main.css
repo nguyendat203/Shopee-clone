@@ -1298,7 +1298,6 @@ i.home-product-item__like-icon-fill {
 .pagination-item__link--selected:hover {
     background-color: #ed5c3f;
 }
-
 .footer {
     padding: 5px;
     border-top: 4px solid var(--primary-color) ;
