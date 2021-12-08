@@ -1,5 +1,10 @@
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
+    :root {
+        --header-height: 120px;
+        --header-navbar-height: 0px;
+    }
+
     .hide-on-mobile-tablet {
         display: none;
     }
