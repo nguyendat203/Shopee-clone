@@ -9,6 +9,7 @@
     --header-navbar-height: 36px;
     --header-search-width: calc(var(--header-height) - var(--header-navbar-height));
     --star-gold-color: rgb(255, 206, 61);
+    --header-sort-bar-height: 46px
 }
 
 * {
@@ -121,10 +122,6 @@ html {
     animation: growth linear 0.1s;
 }
 
-.grid__row {
-    /* margin-top: 30px; */
-}
-
 .btn.btn--normal:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
@@ -152,7 +149,7 @@ html {
 
 .btn--primary {
     color: white;
-    background-color: var(--primary-color);
+    background-color: #ee4d2d;
 }
 
 .btn-disable {
