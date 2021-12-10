@@ -515,6 +515,15 @@
     align-items: center;
 }
 
+.header__mobile-search {
+
+}
+
+.header__mobile-search-icon {
+    font-size: 2.6rem;
+    color: white;
+}
+
 .header__logo {
     width: 200px;
     padding: 0 8px;

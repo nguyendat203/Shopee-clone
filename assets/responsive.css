@@ -23,6 +23,7 @@
         top: 0;
 
     }
+    
 
     .header__cart-list {
         position: fixed;
@@ -88,6 +89,25 @@
 @media (max-width: 739px) {
     .hide-on-mobile {
         display: none;
+    }
+
+    .header-with-search {   
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .header__cart,
+    .header__logo {
+        width: unset;
+    }
+
+    .header__mobile-search-icon {
+        padding: 0 12px;
+    }
+
+    .header__logo {
+        align-items: center;
     }
 }
 
