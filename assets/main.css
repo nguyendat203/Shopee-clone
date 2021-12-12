@@ -1,3 +1,6 @@
+.app {
+    overflow: hidden;
+}
 .header{
     height: var(--header-height);
     background-image: linear-gradient(0, #ee2c4a, #ee4d2d);
@@ -532,6 +535,12 @@
 .header__logo-link {
     color: transparent;
     text-decoration: none;
+    display: block;
+    line-height: 0;
+}
+
+.header__search-checkbox:checked ~ .header__search {
+    display: flex;
 }
 
 .header__logo-img {
@@ -547,6 +556,7 @@
     display: flex;
     align-items: center;
 }
+
 
 .header__search-input-wrap {
     flex: 1;
@@ -1354,6 +1364,7 @@ i.home-product-item__like-icon-fill {
 .home-product__pagination {
     margin-top: 40px;
     margin-bottom: 32px;
+    padding-left: 0;
 }
 
 .pagination-item__link--selected:hover {
