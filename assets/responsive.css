@@ -109,5 +109,45 @@
     .header__logo {
         align-items: center;
     }
+
+    .header__search {
+        position: fixed;
+        top: var(--header-height) ;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        height: 46px;
+        animation: mobileSearchSideIn linear 0.1s;
+        display: none;
+    }
+    
+    @keyframes mobileSearchSideIn {
+        from {
+            top: calc(var(--header-height) / 2);
+            opacity: 0;
+            
+        }
+
+        to {
+            top: var(--header-height);
+            opacity: 1;
+        }
+    }
+
+    .header__search-history {
+        width: 100%;
+        position: fixed;
+        top: calc(var(--header-height) + 40px);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .pagination-item__link {
+        min-width: 16px;
+    }
+
+
+    
+
+
 }
 
