@@ -110,6 +110,10 @@
         align-items: center;
     }
 
+    .header__logo-img {
+        width: 120px;
+    }
+
     .header__search {
         position: fixed;
         top: var(--header-height) ;
@@ -141,13 +145,13 @@
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     }
 
+    .header__cart {
+        margin-right: 8px;
+    }
+
     .pagination-item__link {
         min-width: 16px;
     }
-
-
-    
-
 
 }
 
