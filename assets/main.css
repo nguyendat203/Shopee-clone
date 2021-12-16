@@ -1229,7 +1229,7 @@ span.home-filter__label {
 .home-product-item__img {
     padding: calc(100% -  100px);
     background-repeat: no-repeat;
-    background-size: 198px;
+    background-size: 309px;
 }
 
 .home-product-item__name {
@@ -1453,6 +1453,8 @@ i.home-product-item__like-icon-fill {
     padding-bottom: 40px;
 
 }
+
+
 
 .footer-item {
     line-height: 1.4rem;
